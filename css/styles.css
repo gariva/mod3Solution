@@ -1,0 +1,102 @@
+/** GENERAL **/
+body {
+  font-size: 16px;
+  color: Black;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+/** HEADER **/
+#header-nav {
+  font-family: 'Comic Neue', cursive;
+  background-color: #A79DAD;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #0002C5;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-left: 5px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #0002C5;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #0002C5;
+  text-align: center;
+  border: 1px #0002C5;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/*end of header*/
+
+/*Start of main content*/
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#h31, #h32, #h33{
+  background: url('https://via.placeholder.com/133x75') no-repeat;
+  height:75px;
+  background-position: right;
+  background-color: #A79DAC;
+}
+          /*<a href="https://placeholder.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://via.placeholder.com/89x50">
+          </a>
+*/
+
+h3 {
+  height: 75px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: Left;
+  padding: 30px 0px 0px 15px;
+
+  margin-bottom: 0px;
+}
+
+.menuItemDesc {
+  text-align: justify;
+  padding: 10px 15px 10px 15px;
+  background-color: #A79DAC;
+  margin-bottom: 0px;
+}
+.backToTop {
+  text-align: center;
+  padding: 0px 15px 10px 15px;
+  background-color: #A79DAC;
+}
+
+
+
+

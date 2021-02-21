@@ -1,28 +1,76 @@
 <!doctype html>
 <html lang="en">
   <head>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Bootstrap Starter Page</title>
+    <title>Food, LLC</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   </head>
-<body>
 
-  <h1>Hello Coursera!</h1>
+  <body>
+    <header id ="top">
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Food, LLC</h1></a>
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                <a class="visible-xs" href="#h31"> Beef</a>
+              </li>
+              <li>
+                <a class="visible-xs" href="#h32"> Chicken</a>
+              </li>
+              <li>
+                <a class="visible-xs" href="#h33"> Sushi</a>
+              </li>
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+      </nav><!-- #header-nav -->
+    </header>
+
+    <div id="main-content" class="container">
+      <div class="row">
+          <h2 class="text-center"><span>Our Menu</span></h2>
+      </div>
+      <div id = "menuItems" class="row">
+        <div class = "col-lg-4 col-md-6 col-sm-6 col-xs-12">  
+          <div id="h31"> <h3>Beef</h3></div>
+          <p class = "menuItemDesc"> Reprehenderit ut do aliquip eu non excepteur commodo nisi in cillum mollit reprehenderit ex commodo nisi ut occaecat elit laborum dolor nisi est eu sint laboris duis in nulla aliqua ea in dolore deserunt dolore eu eiusmod. Minim velit consequat voluptate deserunt quis in est occaecat officia consectetur in sint occaecat adipisicing deserunt non ullamco pariatur cillum amet in id et mollit duis ex anim esse do labore qui occaecat qui dolore eiusmod aliqua nulla tempor ut officia in ut dolore elit commodo pariatur mollit et ad amet minim in dolore aute id ullamco nisi adipisicing consequat ea occaecat incididunt aute in eu ex reprehenderit anim ut eu officia fugiat in eiusmod dolore elit in elit mollit id commodo ut deserunt ex sed sunt labore aliquip proident reprehenderit elit veniam cupidatat eiusmod ex consectetur nisi qui exercitation ut laborum velit sit ea cupidatat in ut dolor non ut qui dolor pariatur cupidatat qui ut ex irure adipisicing nulla ut dolore non deserunt ex labore sint sint sunt elit laboris occaecat irure et cillum ut voluptate id proident fugiat minim sed officia duis non ullamco ullamco in et eu dolore commodo cillum proident sed dolore sunt non veniam sunt dolor in. </p>
+          <p class ="backToTop"><a href="#top"> (Back To Top)</a></p> 
+        </div>
+        <div class = "col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div id="h32"> <h3>Chicken</h3></div>
+          <p class = "menuItemDesc"> Reprehenderit ut do aliquip eu non excepteur commodo nisi in cillum mollit reprehenderit ex commodo nisi ut occaecat elit laborum dolor nisi est eu sint laboris duis in nulla aliqua ea in dolore deserunt dolore eu eiusmod. Minim velit consequat voluptate deserunt quis in est occaecat officia consectetur in sint occaecat adipisicing deserunt non ullamco pariatur cillum amet in id et mollit duis ex anim esse do labore qui occaecat qui dolore eiusmod aliqua nulla tempor ut officia in ut dolore elit commodo pariatur mollit et ad amet minim in dolore aute id ullamco nisi adipisicing consequat ea occaecat incididunt aute in eu ex reprehenderit anim ut eu officia fugiat in eiusmod dolore elit in elit mollit id commodo ut deserunt ex sed sunt labore aliquip proident reprehenderit elit veniam cupidatat eiusmod ex consectetur nisi qui exercitation ut laborum velit sit ea cupidatat in ut dolor non ut qui dolor pariatur cupidatat qui ut ex irure adipisicing nulla ut dolore non deserunt ex labore sint sint sunt elit laboris occaecat irure et cillum ut voluptate id proident fugiat minim sed officia duis non ullamco ullamco in et eu dolore commodo cillum proident sed dolore sunt non veniam sunt dolor in. </p>
+          <p class ="backToTop"><a href="#top"> (Back To Top)</a></p> 
+        </div>
+        <div class = "col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div id="h33"> <h3>Sushi</h3></div>
+          <p class = "menuItemDesc"> Reprehenderit ut do aliquip eu non excepteur commodo nisi in cillum mollit reprehenderit ex commodo nisi ut occaecat elit laborum dolor nisi est eu sint laboris duis in nulla aliqua ea in dolore deserunt dolore eu eiusmod. Minim velit consequat voluptate deserunt quis in est occaecat officia consectetur in sint occaecat adipisicing deserunt non ullamco pariatur cillum amet in id et mollit duis ex anim esse do labore qui occaecat qui dolore eiusmod aliqua nulla tempor ut officia in ut dolore elit commodo pariatur mollit et ad amet minim in dolore aute id ullamco nisi adipisicing consequat ea occaecat incididunt aute in eu ex reprehenderit anim ut eu officia fugiat in eiusmod dolore elit in elit mollit id commodo ut deserunt ex sed sunt labore aliquip proident reprehenderit elit veniam cupidatat eiusmod ex consectetur nisi qui exercitation ut laborum velit sit ea cupidatat in ut dolor non ut qui dolor pariatur cupidatat qui ut ex irure adipisicing nulla ut dolore non deserunt ex labore sint sint sunt elit laboris occaecat irure et cillum ut voluptate id proident fugiat minim sed officia duis non ullamco ullamco in et eu dolore commodo cillum proident sed dolore sunt non veniam sunt dolor in. </p>
+          <p class ="backToTop"><a href="#top"> (Back To Top)</a></p> 
+        </div>
+      </div>
+    </div>
+
+      <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
